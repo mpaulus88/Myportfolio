@@ -14,7 +14,7 @@
 						$loop = new WP_Query( $args );
 						while ( $loop->have_posts() ) : $loop->the_post(); ?>
 					<article>
-						<a href="<?php echo get_post_custom_values($url);?> "><?php the_post_thumbnail(); ?></a>
+						<a href="<?php echo get_post_custom_values($url);?>"><?php the_post_thumbnail(); ?></a>
 						<p class="titre"><?php the_title(); ?></p>
 						<p class="description"><?php the_content(); ?></p>
 						<p class="date">ajouté le <?php echo get_the_date(); ?></p>  
