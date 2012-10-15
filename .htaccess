@@ -10,3 +10,16 @@ RewriteRule . /wordpress/index.php [L]
 </IfModule>
 
 # END WordPress
+
+#Début du gzip
+<IfModule mod_deflate.c>
+AddOutputFilterByType DEFLATE text/text text/xml text/html text/plain text/css text/javascript application/x-javascript application/javascript
+#facon grossiere
+<filesmatch "\.(ico|pdf|jpeg|png|gif|js|css)$">
+Header set Expires "Tue, 15 Apr 2014 20:00:00 GMT" 
+#facon class
+<IfModule mode_expires.c>
+ExpiresActive On
+ExpiresDefault "access plus 10 days"
+ExpiresByType text/css "access plus 1 month"
+ExpiresByType text/javascript "access plus 2 month
