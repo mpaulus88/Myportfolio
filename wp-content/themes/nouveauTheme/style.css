@@ -1,0 +1,510 @@
+/*
+Theme Name: nouveauTheme
+Theme URI: 
+Author: Martin Paulus
+Author URI:
+Description: Un super theme
+Version: 1.4
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: simple, vide, pas terrible
+Text Domain: twentyeleven
+*/
+
+/* =Reset default browser CSS. Based on work by Eric Meyer: http://meyerweb.com/eric/tools/css/reset/index.html
+-------------------------------------------------------------- */
+
+/*regarder template hierarchy*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+margin: 0;
+padding: 0;
+border: 0;
+outline: 0;
+font-weight: inherit;
+font-style: inherit;
+font-size: 100%;
+font-family: inherit;
+vertical-align: baseline;
+}
+/* remember to define focus styles! */
+:focus {
+outline: 0;
+}
+body {
+line-height: 1;
+color: black;
+
+
+}
+ol, ul {
+list-style: none;
+}
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+border-collapse: separate;
+border-spacing: 0;
+}
+caption, th, td {
+text-align: left;
+font-weight: normal;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+content: "";
+}
+blockquote, q {
+quotes: "" "";
+}
+/*fin reset*/
+@media only screen and (maw-width:959px)
+{
+	/*zone floue pour écran en dessous de 17"*/
+}
+@media only screen and(min-width: 758px) and(max-width959px)
+{
+/*tablettes mode portrait*/
+}
+
+@font-face {
+    font-family: Maven Pro;
+    src: url(police/"Maven Pro Medium.otf");
+    font-weight:normal;
+}
+@font-face {
+    font-family: Maven Pro;
+    src: url(police/"Maven Pro Bold.otf");
+    font-weight:bold;
+}
+body
+{
+	font-family: georgia, sans-serif;
+	font-size: 16px;
+	background: url("image/background-texture2.png") top left repeat;
+	text-rendering: geometricPrecision;
+
+
+}
+
+
+#menu-header-menu li 
+{
+	float: right;
+	padding-right: 2em;
+	padding-top: 1.2em;
+
+
+}
+
+#menu-header-menu li a
+{
+	color: rgb(52,52,52);
+	text-decoration:none;
+	display:block;
+	font-size: 2em;
+
+}
+#menu-header-menu li a:hover
+{
+	color: rgba(52,52,52, 0.5);
+
+}
+
+
+
+article{
+	line-height: 1.5em;
+}
+
+
+#maintitle
+{
+	font-family: "Maven Pro", serif;
+	font-size: 3em;
+	font-weight: 400;
+	padding-top: 1.2em;
+	padding-left: 0.5em;
+	color:rgb(255,255,255);
+	float:left;
+
+}
+#logo
+{
+	float: left;
+	padding-left:2em;
+	padding-top: 2em;
+}
+#maintitle a
+{
+	color: white;
+	text-decoration: none;
+}
+
+
+
+#main-footer
+{
+		position: relative;
+		bottom:2px;
+		background-color:rgba(0,0,0,0.9);
+		min-height:10em;
+		display: block;
+		box-shadow: -1px 2px 20px rgba(0, 0, 0, 0.6);
+		color:white;
+		padding-left: 6em;
+		padding-right: 2em;
+		margin-top: 5em;
+		clear: both;
+
+}
+
+#banner
+{
+	display:block;
+	background-image: url("image/texture-line.png");
+	box-shadow: -1px 2px 20px rgba(0, 0, 0, 0.6);
+	padding-left:15%;
+	min-height:10em;
+
+
+}
+address a
+{
+	color:rgba(240,240,250,1);
+	font-weight: 400;
+
+}
+address
+{
+	padding: 1em;
+	background-image: url("image/gradient.png");
+	background-repeat: no-repeat ;
+}
+#main
+{
+	position: relative;
+	top:2px;
+	margin-right:15%;
+	margin-left: 15%;
+	min-height:800px; /* question */
+	background: url("image/background-texture.png") top left repeat;
+	box-shadow: 0px 1px 5px 1px rgba(0, 0, 0, 0.3);
+}
+
+
+h2
+{
+	font-weight: bold;
+	font-size: 1.5em;
+	color: rgba(15,15,15,0.8);
+	font-family: "Maven Pro", serif;
+	padding-bottom: 0.7em;
+}
+
+h3
+{
+	font-weight: bold;
+	font-size: 1.5em;
+	color: rgba(15,15,15,0.6);
+	font-family: "Maven Pro", serif;
+	padding-bottom: 0.5em;
+}
+.contact .gauche
+{
+	border-right: 2px solid rgba(0,0,0,0.2);
+	padding-right:  3em;
+}
+
+#hcard-Martin-Paulus
+{
+
+	color: rgba(5,0,0,0.75);
+	float: right;
+}
+
+#hcard-Martin-Paulus a
+{
+	color: rgba(5,0,0,0.75);
+}
+
+
+#news .gauche
+{
+	width:42%;
+	
+}
+
+.gauche
+{
+	padding-top: 2em;
+	padding-bottom: 1em;
+	width:40%;
+	padding-left:5%;
+	float:left;
+	line-height: 1.5em;
+	margin-top: 1em;
+
+	clear: left;
+
+}
+#galerie
+{
+	clear: right;
+}
+.pannel
+{
+	width:10%;
+	padding-left:5%;
+	padding-top: 0;
+	margin-top: 2em;
+	font-size: 2em;
+	padding-right:  0em;
+	padding-bottom:0;
+	clear:both;
+	float:left;
+	border-right: 2px solid rgba(0,0,0,0.2);
+	text-align: center;
+
+
+}
+#panel
+{
+	padding-right: 0;
+}
+
+p
+{
+color: rgba(5,0,0,0.75);  
+}
+
+label
+{
+	font-family: georgia, serif;
+	color: rgba(5,0,0,0.75); 
+}
+input
+{
+	margin-top: 0.75em;
+	margin-bottom:2em;
+}
+form
+{
+		margin-top: 1.5em;
+}
+input
+{
+	font-family: Georgia, sans-serif;
+	color: rgba(5, 0, 0, 0.75);
+}
+textarea
+{
+	margin-top: 0.75em;
+		font-family: Georgia, sans-serif;
+		color: rgba(5, 0, 0, 0.75);
+		font-size: 1em;
+		width: 75%;
+}
+
+
+
+.droite
+{
+	float:right;
+	width:40%;
+	clear: none;
+	padding-right: 5%;
+	padding-top: 2em;
+	padding-bottom: 1em;
+	line-height: 1.5em;
+	margin-top: 1em;
+}
+.droite>section
+{
+	margin-bottom: 3em;
+
+}
+.gauche>section
+{
+	margin-bottom: 3em;
+	border-right: 2px solid rgba(0,0,0,0.2);
+	padding-right: 2em;
+	width:100%;
+}
+.accueil
+{	
+	float:left;
+	margin-bottom: 3em;
+	border-right: 2px solid rgba(0,0,0,0.2);
+	padding-right: 2em;
+	width:40%;
+	padding-left: 5%;
+	border:none;	
+}
+
+section footer p
+{
+	font-style: italic;
+	font-size: 0.8em;
+
+}
+.galery
+{
+	float: left;
+	padding-left: 2em;
+	padding-top: 4em;
+}
+.galery img
+{
+	box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.5);
+	margin-bottom: 0.5em;
+
+}
+.description
+{
+	font-style: italic;
+	font-size: 0.8em;
+	color: rgba(0,0,0,0.6);
+}
+.date
+{
+	font-style: italic;
+	font-size: 0.8em;
+	color: rgba(0,0,0,0.4);
+
+}
+#portfolio
+{
+	margin-right: 5%;
+
+}
+#menu-header-menu
+{
+	border-bottom: 2px solid rgba(0,0,0,0.2);
+	height: 4em;
+	font-family: "Maven Pro", serif;
+	margin-bottom: 3em;
+	/*text-shadow: 0 0 2px rgba(0,0,0,0.4);*/
+}
+#corps
+{
+	min-height: 600px;
+}
+
+
+.gauche footer p
+{
+	padding-left: 0;
+	padding-top: 0;
+}
+#BigDiv
+{
+position: absolute;
+top :0;
+left:0;
+display: block;
+width:100%;
+height:100%;
+background-color: rgba(0,0,0,0.75);
+
+}
+
+#BigDiv img
+{
+	position: absolute;
+	right:30%;
+	top:30%;
+}
+#Exit
+{
+	position: absolute;
+	top:30%;
+	right:30%;
+}
+#hcard-Martin-Paulus .email
+{
+	display: none;
+} 
+#vcard a
+{
+	
+	color: rgba(5,0,0,0.75);
+}
+#coord
+{
+	float:left;
+	margin-bottom: 0;
+}
+#mc_embed_signup
+{
+	float:left;
+	width: 16em;
+}
+#mc_embed_signup label
+{
+	float: left;
+}
+.email
+{
+	font-family: Georgia, sans-serif;
+	color: rgba(5, 0, 0, 0.75);
+	font-size: 1em;
+	float:left;
+	margin-bottom: 0.5em;
+	clear: left;
+}
+.button
+{
+clear: left;
+float: left;
+}
+
+#mail
+{
+	width: 75%;
+}
+#ressoc
+{
+	color: rgba(255,255,255,0.8);
+	float: left;
+	border-right: 2px solid rgba(0,0,0,0.2);
+	padding-right: 5%;
+}
+#ressoc a
+{
+	color: rgba(255,255,255,0.8);
+	float:right;
+	text-decoration: none;
+}
+#main-footer h4
+{
+padding-top: 1.5em;
+padding-bottom: 1.5em;
+font-family: "Maven Pro", serif;
+color: rgba(255,255,255,0.8);
+
+}
+#ressoc img
+{
+	float:left;
+	clear: both;
+}
+#copyright
+{
+	clear: both;
+	color: rgba(255,255,255,0.8);
+	padding-top: 3em;
+	margin-bottom: 1em;
+}
+#MLE
+{
+	float: left;
+	padding-left:5%;
+	width:50%;
+}
+/*plus de contenu ->like, travaux, logo ressoc plus discret, bas de page plus grand plus complet, dans les titres keyword texte pro, flux rss  

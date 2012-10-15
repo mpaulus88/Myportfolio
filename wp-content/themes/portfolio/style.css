@@ -1,0 +1,23 @@
+/*
+Theme Name: portfolio
+Theme URI: 
+Author: Martin Paulus
+Author URI:
+Description: portfolio
+Version: 1.4
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: simple, vide, pas terrible
+Text Domain: twentyeleven
+Template:nouveauTheme
+*/
+
+/* =Reset default browser CSS. Based on work by Eric Meyer: http://meyerweb.com/eric/tools/css/reset/index.html
+-------------------------------------------------------------- */
+
+/*regarder template hierarchy*/
+@import url('../nouveauTheme/style.css');
+body
+{
+	background-color: red;
+}
