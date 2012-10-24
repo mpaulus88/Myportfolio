@@ -1,41 +1,40 @@
 html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;outline:0;font-weight:inherit;font-style:inherit;font-size:100%;font-family:inherit;vertical-align:baseline;}
 :focus{outline:0;}
-body{line-height:1;color:black;}
+body{line-height:1;color:rgba(5, 0, 0, 0.75);}
 ol,ul{list-style:none;}
 table{border-collapse:separate;border-spacing:0;}
 caption,th,td{text-align:left;font-weight:normal;}
 blockquote:before,blockquote:after,q:before,q:after{content:"";}
 blockquote,q{quotes:"" "";}
-@media only screen and (maw-width:959px){}@media only screen and (min-width:758px) and (max-width959px){}@font-face{font-family:Maven Pro;src:url(police/MavenProMedium.otf);font-weight:normal;}@font-face{font-family:Maven Pro;src:url(police/MavenProBold.otf);font-weight:bold;}body{font-family:georgia,sans-serif;font-size:16px;background:url("image/background-texture2.png") top left repeat;text-rendering:geometricPrecision;}
+@font-face{font-family:Maven Pro;src:url(police/MavenProMedium.otf);font-weight:normal;}@font-face{font-family:Maven Pro;src:url(police/MavenProBold.otf);font-weight:bold;}body{font-family:georgia,sans-serif;font-size:16px;background:url("image/background-texture2.png") top left repeat;text-rendering:geometricPrecision;}
 #menu-header-menu li{float:right;padding-right:2em;padding-top:1.2em;}
-#menu-header-menu li a{color:#343434;text-decoration:none;display:block;font-size:2em;}
+#menu-header-menu li a{color:#343434;text-decoration:none;display:block;font-size:1.9em;}
 #menu-header-menu li a:hover{color:rgba(52, 52, 52, 0.5);}
 article{line-height:1.5em;}
-#maintitle{font-family:"Maven Pro",serif;font-size:3em;font-weight:400;padding-top:1.2em;padding-left:0.5em;color:#ffffff;float:left;}
+#maintitle{font-family:"Maven Pro",serif;font-size:3em;font-weight:400;padding-top:1em;padding-left:0.5em;color:#ffffff;float:left;text-shadow:0 0 2px rgba(255, 255, 255, 0.5);}
 #logo{float:left;padding-left:2em;padding-top:2em;}
 #maintitle a{color:white;text-decoration:none;}
-#main-footer{position:relative;bottom:2px;background-color:rgba(0, 0, 0, 0.9);min-height:10em;display:block;box-shadow:-1px 2px 20px rgba(0, 0, 0, 0.6);color:white;padding-left:6em;padding-right:2em;margin-top:5em;clear:both;}
+#main-footer{position:relative;bottom:2px;background-color:rgba(0, 0, 0, 0.9);min-height:10em;display:block;box-shadow:-1px 2px 20px rgba(0, 0, 0, 0.6);color:rgba(255, 255, 255, 0.6);padding-left:7%;padding-right:2em;margin-top:5em;clear:both;}
 #banner{display:block;background-image:url("image/texture-line.png");box-shadow:-1px 2px 20px rgba(0, 0, 0, 0.6);padding-left:15%;min-height:10em;}
 address a{color:#f0f0fa;font-weight:400;}
 address{padding:1em;background-image:url("image/gradient.png");background-repeat:no-repeat;}
 #main{position:relative;top:2px;margin-right:15%;margin-left:15%;min-height:800px;background:url("image/background-texture.png") top left repeat;box-shadow:0px 1px 5px 1px rgba(0, 0, 0, 0.3);}
 h2{font-weight:bold;font-size:1.5em;color:rgba(15, 15, 15, 0.8);font-family:"Maven Pro",serif;padding-bottom:0.7em;}
-h3{font-weight:bold;font-size:1.5em;color:rgba(15, 15, 15, 0.6);font-family:"Maven Pro",serif;padding-bottom:0.5em;}
-.contact .gauche{border-right:2px solid rgba(0, 0, 0, 0.2);padding-right:3em;}
-#hcard-Martin-Paulus{color:rgba(5, 0, 0, 0.75);float:right;}
+h3{font-weight:bold;font-size:1.2em;color:rgba(15, 15, 15, 0.6);font-family:"Maven Pro",serif;margin-bottom:0.2em;}
+.contact .gauche{border-right:2px solid rgba(0, 0, 0, 0.2);padding-right:2em;}
+fieldset{border:none;}
+#hcard-Martin-Paulus{float:right;}
 #hcard-Martin-Paulus a{color:rgba(5, 0, 0, 0.75);}
-#news .gauche{width:42%;}
-.gauche{padding-top:2em;padding-bottom:1em;width:40%;padding-left:5%;float:left;line-height:1.5em;margin-top:1em;clear:left;}
+.gauche{padding-top:1em;padding-bottom:1em;width:42%;padding-left:5%;float:left;line-height:1.5em;clear:left;}
 #galerie{clear:right;}
 .pannel{width:10%;padding-left:5%;padding-top:0;margin-top:2em;font-size:2em;padding-right:0em;padding-bottom:0;clear:both;float:left;border-right:2px solid rgba(0, 0, 0, 0.2);text-align:center;}
 #panel{padding-right:0;}
-p{color:rgba(5, 0, 0, 0.75);}
-label{font-family:georgia, serif;color:rgba(5, 0, 0, 0.75);}
+label{font-family:georgia, serif;}
 input{margin-top:0.75em;margin-bottom:2em;}
 form{margin-top:1.5em;}
 input{font-family:Georgia,sans-serif;color:rgba(5, 0, 0, 0.75);}
 textarea{margin-top:0.75em;font-family:Georgia,sans-serif;color:rgba(5, 0, 0, 0.75);font-size:1em;width:75%;}
-.droite{float:right;width:40%;clear:none;padding-right:5%;padding-top:2em;padding-bottom:1em;line-height:1.5em;margin-top:1em;}
+.droite{float:right;width:40%;clear:none;padding-right:5%;padding-top:1em;padding-bottom:1em;line-height:1.5em;}
 .droite>section{margin-bottom:3em;}
 .gauche>section{margin-bottom:3em;border-right:2px solid rgba(0, 0, 0, 0.2);padding-right:2em;width:100%;}
 .accueil{float:left;margin-bottom:3em;border-right:2px solid rgba(0, 0, 0, 0.2);padding-right:2em;width:40%;padding-left:5%;border:none;}
@@ -45,23 +44,40 @@ section footer p{font-style:italic;font-size:0.8em;}
 .description{font-style:italic;font-size:0.8em;color:rgba(0, 0, 0, 0.6);}
 .date{font-style:italic;font-size:0.8em;color:rgba(0, 0, 0, 0.4);}
 #portfolio{margin-right:5%;}
-#menu-header-menu{border-bottom:2px solid rgba(0, 0, 0, 0.2);height:4em;font-family:"Maven Pro",serif;margin-bottom:3em;}
-#corps{min-height:600px;}
+#menu-header-menu{border-bottom:3px solid rgba(0, 0, 0, 0.2);height:4em;font-family:"Maven Pro",serif;}
+#corps{min-height:600px;margin-top:3em;}
+#corpsBody{min-height:600px;}
 .gauche footer p{padding-left:0;padding-top:0;}
 #BigDiv{position:absolute;top:0;left:0;display:block;width:100%;height:100%;background-color:rgba(0, 0, 0, 0.75);}
 #BigDiv img{position:absolute;right:30%;top:30%;}
 #Exit{position:absolute;top:30%;right:30%;}
 #hcard-Martin-Paulus .email{display:none;}
 #vcard a{color:rgba(5, 0, 0, 0.75);}
-#coord{float:left;margin-bottom:0;}
+#coord{float:left;margin-bottom:0;margin-top:-1em;}
 #mc_embed_signup{float:left;width:16em;}
 #mc_embed_signup label{float:left;}
 .email{font-family:Georgia,sans-serif;color:rgba(5, 0, 0, 0.75);font-size:1em;float:left;margin-bottom:0.5em;clear:left;}
 .button{clear:left;float:left;}
 #mail{width:75%;}
-#ressoc{color:rgba(255, 255, 255, 0.8);float:left;border-right:2px solid rgba(0, 0, 0, 0.2);padding-right:5%;}
-#ressoc a{color:rgba(255, 255, 255, 0.8);float:right;text-decoration:none;}
-#main-footer h4{padding-top:1.5em;padding-bottom:1.5em;font-family:"Maven Pro",serif;color:rgba(255, 255, 255, 0.8);}
+#ressoc{color:rgba(255, 255, 255, 0.8);float:left;padding-right:5%;padding-bottom:2em;}
+#ressoc a{color:rgba(255, 255, 255, 0.6);float:left;line-height:1.5em;text-decoration:none;padding-left:0.5em;padding-top:0.1em;}
+#main-footer h4{padding-top:1.5em;padding-bottom:1em;color:rgba(255, 255, 255, 0.8);}
 #ressoc img{float:left;clear:both;}
-#copyright{clear:both;color:rgba(255, 255, 255, 0.8);padding-top:3em;margin-bottom:1em;}
-#MLE{float:left;padding-left:5%;width:50%;}
+#copyright{clear:both;color:rgba(255, 255, 255, 0.8);padding-top:3em;margin-bottom:1em;padding-bottom:2em;}
+#footer-art article{padding-top:1em;float:left;padding-right:5%;width:32%;min-width:7em;}
+#ressoc{line-height:1.5em;padding-top:1em;width:20%;min-width:7em;}
+#imgNav{display:block;min-height:25em;background:url("image/retina_wood.png") top left repeat;margin-bottom:3em;border-bottom:3px solid rgba(0, 0, 0, 0.1);}
+#slideShow{box-shadow:-1px 2px 20px rgba(0, 0, 0, 0.4);display:block;position:relative;margin-bottom:3em;}
+.gradient{position:absolute;display:block;min-height:25em;width:10%;right:0;background:url("image/gradient.png") top right repeat-y;}
+.gradient:first-child{position:absolute;display:block;min-height:25em;width:10%;left:0;background:url("image/gradient2.png") top left repeat-y;}
+.imgElement{display:block;position:absolute;}
+#agenda{width:150px;height:156px;background:url('image/imgNav/agenda.png');top:19.4em;left:30%;}
+#folders{width:230px;height:295px;background:url('image/imgNav/2d.png');top:6em;left:7%;}
+#phone{width:135px;height:163px;background:url('image/imgNav/phone.png');top:14em;left:45%;}
+#drawing{width:220px;height:195px;background:url('image/imgNav/draw.png');top:4.5em;left:27%;}
+#laptop{width:400px;height:344px;background:url('image/imgNav/laptop.png') no-repeat;top:6em;left:60%;}
+#cap{width:175px;height:121px;background:url('image/imgNav/cap.png') no-repeat;top:4em;left:47%;}
+#pen{width:40px;height:137px;background:url('image/imgNav/pen.png') no-repeat;top:16em;left:40%;-moz-transform:rotate(-45deg);-webkit-transform:rotate(-45deg);-o-transform:rotate(-45deg);}
+#corps.portfolio{margin-top:0;}
+#feedback{height:0;}
+@media only screen and (min-width:960px) and (max-width:1279px){#ressoc a{color:rgba(255, 0, 0, 0.6);} #agenda{width:100px;height:104px;background:url('image/imgNav/1280/agenda.png');top:15.8em;left:30%;} #folders{width:150px;height:195px;background:url('image/imgNav/1280/2d.png');top:6em;left:7%;} #phone{width:90px;height:108px;background:url('image/imgNav/1280/phone.png');top:14em;left:45%;} #drawing{width:150px;height:130px;background:url('image/imgNav/1280/draw.png');top:4.5em;left:27%;} #laptop{width:250px;height:215px;background:url('image/imgNav/1280/laptop.png') no-repeat;top:6em;left:60%;} #cap{width:115px;height:80px;background:url('image/imgNav/1280/cap.png') no-repeat;top:4em;left:47%;} #pen{width:25px;height:90px;background:url('image/imgNav/1280/pen.png') no-repeat;top:14em;left:40%;-moz-transform:rotate(-45deg);-webkit-transform:rotate(-45deg);-o-transform:rotate(-45deg);} #imgNav{min-height:18em;} .gradient{min-height:18em;} .gradient:first-child{min-height:18em;} #maintitle{font-family:"Maven Pro",serif;font-size:2.5em;} #main{margin-right:10%;margin-left:10%;}}@media only screen and (min-width:768px) and (max-width:959px){#menu-header-menu li a{font-size:1.3em;} #maintitle{font-size:2.3em;} #banner{padding-left:10%;} #menu-header-menu li{padding-right:1em;padding-top:0.6em;} #main{margin-right:5%;margin-left:5%;}}@media only screen and (min-width:480px) and (max-width:767px){#maintitle{font-size:1.8em;} #menu-header-menu li a{font-size:1.25em;} #menu-header-menu li{padding-right:1em;padding-top:0.6em;} #main{margin-right:5%;margin-left:5%;} #banner{padding-left:5%;} .accueil{width:90%;} #footer-art{padding-top:1em;float:left;padding-right:5%;min-width:7em;} #footer-art article{padding-top:1em;float:left;padding-right:5%;width:45%;min-width:7em;} .contact .gauche{width:90%;border:none;} .gauche p{padding-right:2em;} .droite{width:90%;padding-left:2em;float:none;clear:both;} #coord{margin-top:0;margin-bottom:2em;} #mc_embed_signup{float:none;} #hcard-Martin-Paulus{padding-right:10%;}}@media only screen and (max-width:479px){#main{margin-right:1%;margin-left:1%;} #banner{padding-left:2%;} #maintitle{font-size:1.4em;} #menu-header-menu li a{font-size:1em;} #menu-header-menu{height:2em;} #menu-header-menu li{padding-right:0.8em;padding-top:0.4em;} .accueil{width:90%;} #footer-art{padding-top:1em;float:left;padding-right:5%;min-width:7em;} #footer-art article{padding-top:1em;float:left;padding-right:5%;width:45%;min-width:7em;} .contact .gauche{width:90%;padding-right:2em;border:none;} .droite{width:90%;padding-left:2em;float:none;clear:both;} #coord{margin-top:0;margin-bottom:2em;} #mc_embed_signup{float:none;} #hcard-Martin-Paulus{padding-right:2%;margin-bottom:1em;} #slide{display:none;} #slide2{display:none;} #imgNav{display:none;}}

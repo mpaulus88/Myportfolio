@@ -1,10 +1,13 @@
 <?php get_header(); ?>
 <?php query_posts( 'cat=7' );?>
-<div id="corps">
+<div id="corps" class="portfolio">
+	<section id="slideShow">
+		<?php include('slide.php'); ?>
+	</section>
 <div id="portfolio">
 <?php  $work_types=get_terms('techniques');
 				foreach($work_types as $work_type):?>
-				<section class="pannel">
+				<section id="$work_type->name" class="pannel">
 				<?php $cat = $work_type->name; ?>
 				<p><?php echo $cat; ?></p>
 				</section>

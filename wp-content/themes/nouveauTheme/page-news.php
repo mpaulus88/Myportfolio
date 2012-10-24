@@ -1,6 +1,7 @@
 <?php get_header(); ?>
 <div id="corps">
 					<section class="gauche">
+						<h2>News des travaux</h2>
 						<?php
 						$args = array( 'post_type' => 'news', 'news_type' => 'Travaux');
 						$loop = new WP_Query( $args );
@@ -19,6 +20,7 @@
 					<?php endwhile; ?>
 					</section>
 					<section class="droite">
+						<h2>News du monde</h2>
 						<?php
 						$args = array( 'post_type' => 'news', 'news_type' => 'Like');
 						$loop = new WP_Query( $args );

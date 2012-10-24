@@ -1,12 +1,10 @@
 <?php get_header(); ?>
-<h1 id="maintitle">
-	<a href="<?php bloginfo('wpurl');?>"<?php bloginfo('name');?>></a>
-</h1>
 		<div id="corps" class="contact">
 				<section class="gauche">
 					<h2>Envoyez moi un message</h2>
 					<p class="contact">Pour travailler avec moi ou avoir plus d'informations sur mes projets et travaux.</p>
-					<form action="#">
+					<p id="feedback"></p>
+					<form method="POST" action="<?php bloginfo('stylesheet_directory');?>/formail.php">
 						<fieldset>
 							<label for="mail">Votre adresse mail:</label>
 							<br>
@@ -16,14 +14,16 @@
 							<br>
 							<textarea rows="10" cols="43" name="message" id="message">Tapez votre message ici et appuyez sur "Envoyer".</textarea>
 							<br>
+							<input name="url" id ="url" type="hidden" value="<?php bloginfo('wpurl');?>/contact-2"> 
 							<input type="submit" value="Envoyer">
 						</fieldset>
 					</form>
+					<p id="feedback"></p>
 				</section>
 				<section class="droite">
 					<h2>Mes coordonnées</h2>
 					<section id="coord">
-						<p id="vcard"><a href="fichiers/Martin-Paulus-Vcard.vcf">Télécharger ma Vcard</a></p>
+						<p id="vcard"><a href="<?php bloginfo('stylesheet_directory');?>/fichiers/Martin-Paulus-Vcard.vcf">Télécharger ma Vcard</a></p>
 						<p>mpaulus88@gmail.com</p>
 					</section>
 					<div id="hcard-Martin-Paulus" class="vcard">
@@ -52,3 +52,5 @@
 
 
 <?php get_footer(); ?>
+<script src="<?php bloginfo('stylesheet_directory');?>/script/jquery.js"></script>
+<script src="<?php bloginfo('stylesheet_directory');?>/script/mail.js"></script>

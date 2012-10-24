@@ -1,0 +1,13 @@
+#slide
+{
+	margin:0;
+
+}
+#slide2
+{
+	position: absolute;
+	right:0;
+	top:0;
+	width:0;
+	height:25em;
+}
